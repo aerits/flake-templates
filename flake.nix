@@ -24,6 +24,10 @@
           - Run `poetry run python -m sample_package`
         '';
       };
+      cpp = {
+        path = ./cpp;
+        description = "Working clangd"
+      }
 
       rust = {
         path = ./rust;
