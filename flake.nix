@@ -27,7 +27,7 @@
       cpp = {
         path = ./cpp;
         description = "Working clangd"
-      }
+      };
 
       rust = {
         path = ./rust;
